@@ -1,8 +1,11 @@
 #include <stdio.h>
-/*Introduction to C*/
-
-int main() {
-    printf("Hello, World!");
-
+/*Write a program to input two numbers and display their sum.*/
+int main()
+{
+    int a,b,c;
+    printf("Enter two numbers:");
+    scanf("%d %d",&a,&b);
+    c=a+b;
+    printf("Sum of %d and %d is %d",a,b,c);
     return 0;
 }
