@@ -1,4 +1,5 @@
 #include<stdio.h>
+/*Program to write to find perimeter and area of rectangle with given lenght and breadth.*/
 int main()
 {
 float lenght,breadth,perimeter,area;
