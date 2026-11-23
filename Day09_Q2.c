@@ -1,4 +1,6 @@
-
+/*Write a C program to calculate an electricity bill based on the following conditions:
+Input the number of units consumed.
+Calculate the bill according to these slabs:*/
 #include <stdio.h>
 
 int main()
