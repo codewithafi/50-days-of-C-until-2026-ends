@@ -1,35 +1,36 @@
-#include<stdio.h>
 /*Program to display the day of the week based on a number (1–7) using switch-case statement. If the number is not in the range 1-7, display an error message.*/
-int main() {
+#include<stdio.h>
+int main()
+{
     int day;
-    printf("Enter a number (1-7): ");
+    printf("Enter a number from 1 to 7: ");
     scanf("%d", &day);
-
-    switch(day) {
+    
+    switch(day)
+    {
         case 1:
-            printf("Monday\n");
-            break;
+        printf("Monday\n");
+        break;
         case 2:
-            printf("Tuesday\n");
-            break;
+        printf("Tuesday\n");
+        break;
         case 3:
-            printf("Wednesday\n");
-            break;
+        printf("Wednesday\n");
+        break;
         case 4:
-            printf("Thursday\n");
-            break;
+        printf("Thursday\n");
+        break;
         case 5:
-            printf("Friday\n");
-            break;
+        printf("Friday\n");
+        break;
         case 6:
-            printf("Saturday\n");
-            break;
+        printf("Saturday\n");
+        break;
         case 7:
-            printf("Sunday\n");
-            break;
-        default:
-            printf("Error: Please enter a number between 1 and 7.\n");
+        printf("Sunday\n");
+        break;
+        default: 
+        printf("Error");
     }
-
     return 0;
 }
